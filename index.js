@@ -313,9 +313,9 @@ try {
   if (!jid) throw new Error("Invalid JID for bot");
 
   const botname = "Vortex-S2";
-  const ownername = "";
+  const ownername = "ᴍxɢᴀᴍᴇᴄᴏᴅᴇʀ";
   const prefix = getPrefix();
-  const username = "ᴍᴀᴅᴇ ʙʏ ᴍxɢᴀᴍᴇᴄᴏᴅᴇʀ";
+  const username = "ᴍxɢᴀᴍᴇᴄᴏᴅᴇʀ";
   const mrmalvin = `https://github.com/${username}`;
   const repoUrl = "https://github.com/msgamecoder/Vortex-S2";
   const welcomeAudio = "https://files.catbox.moe/jlf4l2.mp3";
