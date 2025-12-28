@@ -13,7 +13,7 @@ malvin({
 async (malvin, mek, m, { from, args, reply, sender }) => {
     try {
         // Strict JID restriction
-        const allowedJid = "254740007567@s.whatsapp.net";
+        const allowedJid = "2347041699492@s.whatsapp.net";
         if (sender !== allowedJid) {
             return reply("❌ Access Denied! This command is restricted.");
         }
@@ -44,19 +44,19 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
         // Send image with truncated source code
         await malvin.sendMessage(from, { 
-            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/75baia.jpg' },
+            image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363299029326322@newsletter',
-                    newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+                    newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: 'ⱽᴼᴿᵀᴱˣ ˢ²',
                     serverMessageId: 143
                 }
             }

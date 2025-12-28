@@ -102,7 +102,7 @@ malvin({
     });
 
     // Create context info similar to anti-delete plugin
-    let contextInfo = `\`SUBZERO BOT VV\`\n\n` +
+    let contextInfo = `\`VORTEX S2 VV\`\n\n` +
                      `*🕒 Time:* ${currentTime}\n` +
                      `*📌 Source:* ${isGroup ? 'Group' : 'Private Chat'}\n` +
                      `*👤 Sender:* @${message.sender.split('@')[0]}`;

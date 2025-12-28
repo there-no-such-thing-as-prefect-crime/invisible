@@ -26,7 +26,7 @@ malvin({
     const botNumber = malvin.user.id.split(":")[0] + '@s.whatsapp.net';
 
     if (m.mentionedJid.includes(botNumber)) {
-      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://files.catbox.moe/mn47ve", {
+      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png", {
         responseType: 'arraybuffer'
       });
       const thumbnailBuffer = Buffer.from(thumbnailRes.data, 'binary');
@@ -45,8 +45,8 @@ malvin({
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: thumbnailBuffer,
-            mediaUrl: "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg", // Static image URL
-            sourceUrl: "https://wa.me/254740007567",
+            mediaUrl: "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png", // Static image URL
+            sourceUrl: "https://wa.me/2347041699492",
             showAdAttribution: true
           }
         }

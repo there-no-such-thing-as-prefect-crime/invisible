@@ -5,8 +5,8 @@ const os = require("os");
 const { runtime } = require("../lib/functions");
 
 const botStartTime = Date.now();
-const ALIVE_IMG = config.ALIVE_IMAGE || 'https://files.catbox.moe/75baia.jpg';
-const NEWSLETTER_JID = config.NEWSLETTER_JID || '120363421164015033@newsletter';
+const ALIVE_IMG = config.ALIVE_IMAGE || 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png';
+const NEWSLETTER_JID = config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter';
 const AUDIO_URL = config.AUDIO_URL || 'https://files.catbox.moe/jlf4l2.mp3';
 
 // Tiny caps mapping for lowercase letters
@@ -33,11 +33,11 @@ malvin({
     const totalRam = (os.totalmem() / 1024 / 1024).toFixed(2);
 
     const caption = `
-╭───〔 𝗫-𝗚𝗨𝗥𝗨 𝗦𝗧𝗔𝗧𝗨𝗦 〕───
+╭───〔 vORTEX S2 STATUS 〕───
 │ 👤 User       : ${pushname}
 │ 🕓 Uptime     : ${uptime}
-│ 💻 Bot Name   : ${config.BOT_NAME || 'X-GURU'}
-│ 🧑‍💻 Owner    : ${config.OWNER_NAME || 'GuruTech'}
+│ 💻 Bot Name   : ${config.BOT_NAME || '𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2'}
+│ 🧑‍💻 Owner    : ${config.OWNER_NAME || '𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛'}
 │ 🖥 RAM Usage  : ${usedRam}MB / ${totalRam}MB
 ╰────────────────────────────
 `.trim();
@@ -53,7 +53,7 @@ malvin({
             title: "Click Here",
             sections: [
               {
-                title: "X-GURU MENU",
+                title: "VORTEX S2 MENU",
                 rows: [
                   { title: "MENU", description: "Open all commands", id: `${config.PREFIX}menu` },
                   { title: "OWNER", description: "Contact bot owner", id: `${config.PREFIX}owner` },
@@ -79,7 +79,7 @@ malvin({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: NEWSLETTER_JID,
-          newsletterName: toTinyCaps(config.OWNER_NAME || 'GuruTech'),
+          newsletterName: toTinyCaps(config.OWNER_NAME || '𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛'),
           serverMessageId: 143,
         },
       },

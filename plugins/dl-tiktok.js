@@ -55,7 +55,7 @@ malvin({
     const { title, author, url, metrics, thumbnail } = data;
 
     const caption = `🎬 *TikTok Downloader*\n
-╭─❍ ᴍᴀʟᴠɪɴ-ᴡᴏʀʟᴅ ❍
+╭─❍ 𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2 ❍
 ┊🎵 *Title:* ${title}
 ┊👤 *Author:* @${author.username} (${author.nickname})
 ┊❤️ *Likes:* ${metrics.digg_count}
@@ -63,7 +63,7 @@ malvin({
 ┊🔁 *Shares:* ${metrics.share_count}
 ┊📥 *Downloads:* ${metrics.download_count}
 ╰─❍
-> ${config.FOOTER || "ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ"}`;
+> ${config.FOOTER || "ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²"}`;
 
     await malvin.sendMessage(from, {
       image: { url: thumbnail },

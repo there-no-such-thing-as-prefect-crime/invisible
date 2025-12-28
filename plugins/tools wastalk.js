@@ -32,7 +32,7 @@ malvin({
                `*📄 Description:* ${description || 'No description'}\n\n` +
                `*🔗 Link:* ${link}\n` +
                
-               `ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`
+               `ᴍᴀᴅᴇ ʙʏ ᴍx`
     }, { quoted: mek });
 
   } catch (error) {

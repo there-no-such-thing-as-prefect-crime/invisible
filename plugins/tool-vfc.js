@@ -39,8 +39,8 @@ malvin({
         await malvin.sendMessage(from, {
             document: fs.readFileSync(nmfilect), 
             mimetype: 'text/vcard', 
-            fileName: 'MalvinTech.vcf', 
-            caption: `\nDone saving.\nGroup Name: *${cmiggc.subject}*\nContacts: *${cmiggc.participants.length}*\n> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`}, { quoted: mek });
+            fileName: 'mx.vcf', 
+            caption: `\nDone saving.\nGroup Name: *${cmiggc.subject}*\nContacts: *${cmiggc.participants.length}*\n> ᴍᴀᴅᴇ ʙʏ mx`}, { quoted: mek });
 
         fs.unlinkSync(nmfilect); // Cleanup the file after sending
     } catch (err) {

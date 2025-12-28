@@ -59,14 +59,14 @@ malvin({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: config.NEWSLETTER_JID || '120363299029326322@newsletter',
-                newsletterName: config.OWNER_NAME || '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+                newsletterJid: config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                newsletterName: config.OWNER_NAME || 'mxgamecoder',
                 serverMessageId: 143
             }
         };
 
         // Send report to owner
-        await malvin.sendMessage(`${config.DEV_NUMBER || '254740007567'}@s.whatsapp.net`, {
+        await malvin.sendMessage(`${config.DEV_NUMBER || '2347041699492'}@s.whatsapp.net`, {
             text: reportText,
             contextInfo
         }, { quoted: m });

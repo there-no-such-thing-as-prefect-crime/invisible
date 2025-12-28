@@ -23,15 +23,15 @@ const REPLY_MSGS = {
 const sendCustomMessage = async (malvin, from, message, mek, mentions = []) => {
   try {
     await malvin.sendMessage(from, {
-      image: { url: config.MENU_IMAGE_URL || 'https://url.bwmxmd.online/Adams.xm472dqv.jpeg' },
+      image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
       caption: message,
       contextInfo: {
         mentionedJid: mentions.length ? mentions : [mek.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: config.NEWSLETTER_JID || '120363299029326322@newsletter',
-          newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+          newsletterJid: config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+          newsletterName: '𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2',
           serverMessageId: 143,
         },
       },
@@ -523,7 +523,7 @@ malvin({
 ${listAdmin}
 
 *━━━━━━━━━━━━━━━━━━━*\n
-> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
     await malvin.sendMessage(from, {
       image: { url: ppUrl },

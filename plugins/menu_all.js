@@ -63,7 +63,7 @@ malvin({
 }, async (malvin, mek, m, { from, sender, reply }) => {
   try {
     const prefix = getPrefix();
-    const timezone = config.TIMEZONE || 'Africa/Nairobi';
+    const timezone = config.TIMEZONE || 'Africa/Nigeria';
     const uptime = () => {
       let sec = process.uptime();
       let h = Math.floor(sec / 3600);
@@ -75,14 +75,14 @@ malvin({
     // ================= ADVANCED BOX MENU =================
     let menu = `
 ╔══════════════════════╗
-║ 🤖  𝙓-𝙂𝙐𝙍𝙐  BOT MENU
-║ 👑 Owner : GuruTech
+║ 🤖  Vortex S2 BOT MENU
+║ 👑 Owner : 𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛
 ║ 👤 User  : @${sender.split("@")[0]}
 ║ ⏱ Runtime: ${uptime()}
 ║ ⚙ Mode   : ${config.MODE}
 ║ 🔑 Prefix : ${config.PREFIX}
 ║ 🧩 Plugins: ${commands.length}
-║ 🚀 Version: 2.0.0
+║ 🚀 Version: 1.0.0
 ╚══════════════════════╝
 `;
 
@@ -110,8 +110,8 @@ malvin({
 
     menu += `
 ╔══════════════════════╗
-║ ✨ Powered by X-GURU
-║ ⚡ Fast • Secure • Reliable
+║ ✨ Powered by mxgamecoder
+║ ⚡ Fast • Secure
 ╚══════════════════════╝
 `;
 
@@ -121,8 +121,8 @@ malvin({
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: config.NEWSLETTER_JID || '120363421164015033@newsletter',
-        newsletterName: 'GuruTech',
+        newsletterJid: config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+        newsletterName: 'mxgamecoder',
         serverMessageId: 143
       }
     };
@@ -131,7 +131,7 @@ malvin({
     await malvin.sendMessage(
       from,
       {
-        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/75baia.jpg' },
+        image: { url: config.MENU_IMAGE_URL || 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
         caption: menu,
         contextInfo: imageContextInfo
       },
@@ -152,7 +152,7 @@ malvin({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterName: 'GuruTech',
+              newsletterName: 'mxgamecoder',
               serverMessageId: 143
             }
           }

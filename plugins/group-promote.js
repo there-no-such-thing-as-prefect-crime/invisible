@@ -37,7 +37,7 @@ malvin({
                 `│ ➸ ${config.PREFIX}promote <number/reply>\n` +
                 `│\n` +
                 `│ 💡 *ᴇxᴀᴍᴘʟᴇ:*\n` +
-                `│ ➸ ${config.PREFIX}promote 254740007567\n` +
+                `│ ➸ ${config.PREFIX}promote 2347041699492\n` +
                 `│ ➸ Reply to a message\n` +
                 `╰──────────────`
             );
@@ -78,8 +78,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: config.NEWSLETTER_JID || '120363402507750390@newsletter',
-                    newsletterName: config.OWNER_NAME || 'MALVIN KING',
+                    newsletterJid: config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: config.OWNER_NAME || 'ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ',
                     serverMessageId: 143
                 }
             }

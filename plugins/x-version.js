@@ -23,7 +23,7 @@ malvin({
         let status = '🔍 *Remote check disabled*';
 
         if (config.CHECK_VERSION !== false) {
-            const repoUrl = config.REPO || 'https://github.com/ADDICT-HUB/X-GURU';
+            const repoUrl = config.REPO || 'https://github.com/msgamecoder/vortex-s2';
             const repoPath = repoUrl.replace('https://github.com/', '');
             const rawUrl = `https://raw.githubusercontent.com/${repoPath}/master/package.json`;
 
@@ -39,28 +39,28 @@ malvin({
         }
 
         const caption = `
-╭───[ *X-GURU Bot Version* ]───
+╭───[ *Vortex S2 Bot Version* ]───
 ├ *Current*: v${currentVersion} 📍
 ├ *Latest*: v${latestVersion} 🆕
 ├ *Status*: ${status}
 ├ *Checked*: ${date} 🗓️
 ├ *Time*: ${time} 🕒
-├ *Bot*: ${config.BOT_NAME || 'X-GURU'} 🤖
+├ *Bot*: ${config.BOT_NAME || 'Vortex S2'} 🤖
 ├ *Developer*: ${config.DEV_NAME || 'GuruTech'}
-├ *Repo*: ${config.REPO || 'https://github.com/ADDICT-HUB/X-GURU'} 📦
+├ *Repo*: ${config.REPO || 'https://github.com/msgamecoder/vortex-s2'} 📦
 ╰──────────────┈⊷
 > *Made by GuruTech*`;
 
         await malvin.sendMessage(from, {
-            image: { url: config.ALIVE_IMG || 'https://files.catbox.moe/75baia.jpg' },
+            image: { url: config.ALIVE_IMG || 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption,
             contextInfo: {
                 mentionedJid: [sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363421164015033@newsletter',
-                    newsletterName: config.BOT_NAME ? `${config.BOT_NAME} Bot` : 'X-GURU',
+                    newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: config.BOT_NAME ? `${config.BOT_NAME}` : 'Vortex S2',
                     serverMessageId: 143
                 }
             }

@@ -23,7 +23,7 @@ malvin({
         }
         if (!isBotAdmins) return reply("❌ ɪ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴀɴ ᴀᴅᴍɪɴ ᴛᴏ ᴅᴇᴍᴏᴛᴇ ᴍᴇᴍʙᴇʀs");
 
-        const ownerNumbers = config.OWNER_NUMBERS || ['254790375710', '267857', '254740007567'];
+        const ownerNumbers = config.OWNER_NUMBERS || ['2347041699492', '2349021506036'];
         const botJid = botNumber;
 
         // Filter admins to demote
@@ -72,8 +72,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: config.NEWSLETTER_JID || '120363299029326322@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+                    newsletterJid: config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: config.OWNER_NAME || 'ⱽᴼᴿᵀᴱˣ ˢ²',
                     serverMessageId: 143
                 }
             }

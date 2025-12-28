@@ -54,14 +54,14 @@ malvin({
         caption: `📥 *File Details*\n\n` +
           `🔖 *Name*: ${filename}\n` +
           `📏 *Size*: ${size}\n\n` +
-          `> 120363299029326322@newsletter`,
+          `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363299029326322@newsletter',
-            newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』',
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: '『 ⱽᴼᴿᵀᴱˣ ˢ² 』',
             serverMessageId: 143
           }
         }
@@ -73,14 +73,14 @@ malvin({
         caption: `📥 *File Details*\n\n` +
           `🔖 *Name*: ${filename}\n` +
           `📏 *Size*: ${size}\n\n` +
-          `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`,
+          `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363299029326322@newsletter',
-            newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: 'ⱽᴼᴿᵀᴱˣ ˢ²',
             serverMessageId: 143
           }
         }
@@ -94,14 +94,14 @@ malvin({
         caption: `📥 *File Details*\n\n` +
           `🔖 *Name*: ${filename}\n` +
           `📏 *Size*: ${size}\n\n` +
-          `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`,
+          `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363299029326322@newsletter',
-            newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: 'ⱽᴼᴿᵀᴱˣ ˢ²',
             serverMessageId: 143
           }
         }
@@ -174,8 +174,8 @@ malvin({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363402507750390@newsletter',
-          newsletterName: '『 ᴍᴀʟᴠɪɴ-xᴅ 』',
+          newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+          newsletterName: '『 ⱽᴼᴿᵀᴱˣ ˢ² 』',
           serverMessageId: 143
         }
       }

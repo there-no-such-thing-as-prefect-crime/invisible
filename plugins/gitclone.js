@@ -51,7 +51,7 @@ malvin({
   `├─ 📄 ғɪʟᴇ: ${fileName}\n` +
   `│\n` +
   `╰──────────────\n` +
-  `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`
+  `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`
 );
 
     // Send the zip file document with some custom contextInfo flair
@@ -64,8 +64,8 @@ malvin({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363299029326322@newsletter',
-          newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+          newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+          newsletterName: 'ⱽᴼᴿᵀᴱˣ ˢ²',
           serverMessageId: 143
         }
       }

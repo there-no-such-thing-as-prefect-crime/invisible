@@ -39,7 +39,7 @@ malvin({
     let videoBuffer = await gifToVideo(gifBuffer);
 
     // Create the marriage message
-    const message = `💍 *Congrats !* 💒\n\n👰 @${sender.split("@")[0]} + 🤵 @${randomPair.split("@")[0]}\n\nMay you both live happily ever after! 💖\n\nᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+    const message = `💍 *Congrats !* 💒\n\n👰 @${sender.split("@")[0]} + 🤵 @${randomPair.split("@")[0]}\n\nMay you both live happily ever after! 💖\n\nᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
     // Send the marriage video message with the wedding GIF
     await malvin.sendMessage(

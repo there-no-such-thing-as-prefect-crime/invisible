@@ -45,7 +45,7 @@ malvin({
         const responseTime = Number(process.hrtime.bigint() - start) / 1e9;
         const statusText = emojiSets.status.find(s => responseTime < s.threshold)?.text || '🐢 Slow';
 
-        const timezone = config.TIMEZONE || 'Africa/Harare';
+        const timezone = config.TIMEZONE || 'Africa/Nigeria';
         const cacheKey = `${timezone}:${moment().format('YYYY-MM-DD HH:mm:ss')}`;
         let time, date;
 
@@ -67,7 +67,7 @@ malvin({
         const nodeVersion = process.version;
         const ownerName = config.OWNER_NAME || 'Marisel';
         const botName = config.BOT_NAME || '𝖒𝖆𝖗𝖎𝖘𝖊𝖑';
-        const repoLink = config.REPO || 'https://github.com/betingrich4/Mercedes';
+        const repoLink = config.REPO || 'https://github.com/msgamecoder/vortex-s2';
 
         const pingMsg = `
 *${statusText}*
@@ -98,7 +98,7 @@ ${loadingBar}
                         forwardingScore: 999,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363299029326322@newsletter',
+                            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
                             newsletterName: botName,
                             serverMessageId: 143
                         }

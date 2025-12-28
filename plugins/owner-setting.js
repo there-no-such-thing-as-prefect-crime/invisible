@@ -12,7 +12,7 @@ malvin({
     filename: __filename
 }, async (malvin, mek, m, { isOwner, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
-    reply("🛑 Shutting down MALVIN-XD... Bye!").then(() => process.exit());
+    reply("🛑 Shutting down vortex s2... Bye!").then(() => process.exit());
 });
 
 // 2. Broadcast Message to All Groups

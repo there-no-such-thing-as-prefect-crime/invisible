@@ -71,12 +71,12 @@ malvin(
                 text: `📺 *${cleanTitle}*\n\n` +
                       `🔄 S${seasonNum}E${episodeNum}\n` +
                       `🔗 ${data.download_link}\n\n` +
-                      `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`,
+                      `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`,
                 contextInfo: {
                     externalAdReply: {
                         title: cleanTitle,
                         body: `Season ${seasonNum} • Episode ${episodeNum}`,
-                        thumbnailUrl: 'https://files.catbox.moe/01f9y1.jpg',
+                        thumbnailUrl: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png',
                         mediaType: 1,
                         sourceUrl: data.download_link
                     }

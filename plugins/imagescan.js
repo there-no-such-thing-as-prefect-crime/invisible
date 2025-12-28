@@ -75,7 +75,7 @@ malvin({
     await reply(
       `🔍 *Image Analysis Results*\n\n` +
       `${scanResponse.data.result}\n\n` +
-      `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`
+      `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`
     );
 
   } catch (error) {

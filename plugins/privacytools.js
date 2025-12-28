@@ -41,15 +41,15 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         await malvin.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/01f9y1.jpg` }, // Replace with privacy-themed image if available
+                image: { url: `https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png` }, // Replace with privacy-themed image if available
                 caption: privacyMenu,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363299029326322@newsletter',
-                        newsletterName: "𝖒𝖆𝖗𝖎𝖘𝖊𝖑",
+                        newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                        newsletterName: "mxgamecoder",
                         serverMessageId: 143
                     }
                 }

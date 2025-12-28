@@ -33,11 +33,11 @@ malvin({
         const { siteUrl, copiedFilesAmount, download_url } = response.data.result;
 
         const caption = `
-╭───[ *ᴡᴇʙᴢɪᴘ* ]───
+╭───[ *ⱽᴼᴿᵀᴱˣ ˢ²* ]───
 ├ *sɪᴛᴇ*: ${siteUrl} 🌐
 ├ *ғɪʟᴇs*: ${copiedFilesAmount} 📂
-╰───[ *ᴍᴇʀᴄᴇᴅᴇs* ]───
-> *powered by malvin* ♡`;
+╰───[ *ⱽᴼᴿᵀᴱˣ ˢ²* ]───
+> *powered by ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ* ♡`;
 
         await reply('⏳ archiving website...');
 

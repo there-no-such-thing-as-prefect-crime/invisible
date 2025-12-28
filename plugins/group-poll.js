@@ -63,8 +63,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: config.NEWSLETTER_JID || '120363402507750390@newsletter',
-                    newsletterName: config.OWNER_NAME || 'MALVIN KING',
+                    newsletterJid: config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: config.OWNER_NAME || 'ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ',
                     serverMessageId: 143
                 }
             }

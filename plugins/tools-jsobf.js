@@ -1,5 +1,5 @@
 //---------------------------------------------
-//           MALVIN-XD  
+//          vortex
 //---------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE OR REMOVE THIS CREDIT⚠️  
 //---------------------------------------------
@@ -9,7 +9,7 @@ const { malvin, commands } = require('../malvin');
 const JavaScriptObfuscator = require('javascript-obfuscator');
 const axios = require('axios');
 
-const THUMBNAIL_URL = 'https://i.ibb.co/pjGZNcgX/malvin-xd.jpg';
+const THUMBNAIL_URL = 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png';
 
 /**
  * Obfuscates JavaScript code using an external API.
@@ -56,7 +56,7 @@ malvin({
                   `🔹 *Original Length:* ${q.length} characters\n` +
                   `🔹 *Obfuscated Code:* ${obfuscatedCode}\n\n` +
                   `⚠️ *Do not share sensitive code!*\n` +
-                  `🔹 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`,
+                  `🔹 *ᴍᴀᴅᴇ ʙʏ mx*`,
             contextInfo: {
                 externalAdReply: {
                     title: 'Obfuscator',
@@ -153,7 +153,7 @@ malvin({
             `🔹 *Strength:* ${strength}\n` +
             `🔹 *Obfuscated Code:* ${obfuscatedCode}\n\n` +
             `⚠️ *Do not share sensitive code!*\n` +
-            `🔹 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+            `🔹 *ᴍᴀᴅᴇ ʙʏ mx*`
         );
 
         // Send clean code after 2-second delay
@@ -214,7 +214,7 @@ malvin({
             `🔓 *FORMATTER*\n\n` +
             `⚠️ *Note:* Full deobfuscation is not possible; this formats the code for readability.\n` +
             `🔹 *Formatted Code:* ${formattedCode}\n\n` +
-            `🔹 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`
+            `🔹 *ᴍᴀᴅᴇ ʙʏ mx`
         );
 
         // Send clean code after 2-second delay

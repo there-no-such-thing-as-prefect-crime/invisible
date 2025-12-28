@@ -35,7 +35,7 @@ malvin({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> Powered By ᴍᴀʟᴠɪɴ-xᴅ ",
+            caption: "> Powered By 𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2 ",
             mimetype: 'image/png'
         }, { quoted: message });
 

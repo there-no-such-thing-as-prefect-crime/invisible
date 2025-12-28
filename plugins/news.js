@@ -24,7 +24,7 @@ async (malvin, mek, m, { from, reply }) => {
 ⚠️ _${article.description}_
 🔗 _${article.url}_
 
-> ᴍᴀᴅᴇ ʙʏ GURUTECH 
+> ᴍᴀᴅᴇ ʙʏ mxgamecoder 
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging

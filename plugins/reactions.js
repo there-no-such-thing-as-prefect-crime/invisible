@@ -21,7 +21,7 @@ malvin(
                 ? `${sender} is crying over @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is crying!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/cry";
             let res = await axios.get(apiUrl);
@@ -61,7 +61,7 @@ malvin(
                 ? `${sender} cuddled @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is cuddling everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/cuddle";
             let res = await axios.get(apiUrl);
@@ -101,7 +101,7 @@ malvin(
                 ? `${sender} is bullying @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is bullying everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/bully";
             let res = await axios.get(apiUrl);
@@ -141,7 +141,7 @@ malvin(
                 ? `${sender} hugged @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is hugging everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/hug";
             let res = await axios.get(apiUrl);
@@ -182,7 +182,7 @@ malvin(
                 ? `${sender} awoos at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is awooing everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/awoo";
             let res = await axios.get(apiUrl);
@@ -257,7 +257,7 @@ malvin(
                 ? `${sender} patted @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is patting everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
             const apiUrl = "https://api.waifu.pics/sfw/pat";
             let res = await axios.get(apiUrl);
             let gifUrl = res.data.url;
@@ -296,7 +296,7 @@ malvin(
                 ? `${sender} is smug at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is feeling smug!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/smug";
             let res = await axios.get(apiUrl);
@@ -336,7 +336,7 @@ malvin(
                 ? `${sender} bonked @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is bonking everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/bonk";
             let res = await axios.get(apiUrl);
@@ -377,7 +377,7 @@ malvin(
                 ? `${sender} yeeted @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is yeeting everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/yeet";
             let res = await axios.get(apiUrl);
@@ -417,7 +417,7 @@ malvin(
                 ? `${sender} is blushing at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is blushing!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/blush";
             let res = await axios.get(apiUrl);
@@ -457,7 +457,7 @@ malvin(
                 ? `${sender} is holding hands with @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} wants to hold hands with everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/handhold";
             let res = await axios.get(apiUrl);
@@ -498,7 +498,7 @@ malvin(
                 ? `${sender} gave a high-five to @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is high-fiving everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/highfive";
             let res = await axios.get(apiUrl);
@@ -538,7 +538,7 @@ malvin(
                 ? `${sender} is nomming @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is nomming everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/nom";
             let res = await axios.get(apiUrl);
@@ -578,7 +578,7 @@ malvin(
                 ? `${sender} waved at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is waving at everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/wave";
             let res = await axios.get(apiUrl);
@@ -618,7 +618,7 @@ malvin(
                 ? `${sender} smiled at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is smiling at everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/smile";
             let res = await axios.get(apiUrl);
@@ -658,7 +658,7 @@ malvin(
                 ? `${sender} winked at @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is winking at everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/wink";
             let res = await axios.get(apiUrl);
@@ -698,7 +698,7 @@ malvin(
                 ? `${sender} is happy with @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is happy with everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/happy";
             let res = await axios.get(apiUrl);
@@ -738,7 +738,7 @@ malvin(
                 ? `${sender} glomped @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is glomping everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/glomp";
             let res = await axios.get(apiUrl);
@@ -778,7 +778,7 @@ malvin(
                 ? `${sender} bit @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is biting everyone!`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/bite";
             let res = await axios.get(apiUrl);
@@ -818,7 +818,7 @@ malvin(
                 ? `${sender} poked @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} poked everyone`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/poke";
             let res = await axios.get(apiUrl);
@@ -859,7 +859,7 @@ malvin(
                 ? `${sender} thinks @${mentionedUser.split("@")[0]} is cringe`
                 : isGroup
                 ? `${sender} finds everyone cringe`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/cringe";
             let res = await axios.get(apiUrl);
@@ -900,7 +900,7 @@ malvin(
                 ? `${sender} danced with @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is dancing with everyone`
-                : `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                : `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             const apiUrl = "https://api.waifu.pics/sfw/dance";
             let res = await axios.get(apiUrl);
@@ -945,7 +945,7 @@ malvin(
             } else if (isGroup) {
                 message = `${sender} killed everyone`;
             } else {
-                message = `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                message = `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
             }
 
             const apiUrl = "https://api.waifu.pics/sfw/kill";
@@ -989,7 +989,7 @@ malvin(
             } else if (isGroup) {
                 message = `${sender} slapped everyone`;
             } else {
-                message = `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                message = `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
             }
 
             const apiUrl = "https://api.waifu.pics/sfw/slap";
@@ -1033,7 +1033,7 @@ malvin(
             } else if (isGroup) {
                 message = `${sender} kissed everyone`;
             } else {
-                message = `>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                message = `>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
             }
 
             const apiUrl = "https://api.waifu.pics/sfw/kiss";

@@ -1,6 +1,3 @@
-// MALVIN-XD SPAM FUN TOOLS
-// Author: Mr Malvin 🧠
-// GitHub: https://github.com/XdKing2/MALVIN-XD
 
 const config = require('../settings');
 const { malvin } = require('../malvin');

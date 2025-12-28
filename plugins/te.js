@@ -21,8 +21,8 @@ const toTinyCaps = (str) => {
 };
 
 // Configuration constants
-const MENU_IMG = config.MENU_IMAGE_URL || 'https://url.bwmxmd.online/Adams.zjrmnw18.jpeg';
-const NEWSLETTER_JID = config.NEWSLETTER_JID || '120363299029326322@newsletter';
+const MENU_IMG = config.MENU_IMAGE_URL || 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png';
+const NEWSLETTER_JID = config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter';
 const MENU_AUDIO = config.MENU_AUDIO_URL || 'https://files.catbox.moe/pjlpd7.mp3';
 
 // Normalisation des catégories
@@ -138,7 +138,7 @@ malvin({
 *┇ ᴘʀᴇғɪx: 「 ${prefix} 」*
 *┇ ᴘʟᴜɢɪɴꜱ: 『 ${commands.length} 』*
 *┇ ᴍᴏᴅᴇ: ${config.MODE}*
-*┇ ᴠᴇʀꜱɪᴏɴ: 2.0.0*
+*┇ ᴠᴇʀꜱɪᴏɴ: 1.0.0*
 *┗──────────────⊷*
 
 ${toTinyCaps('select a category below to explore commands')}

@@ -1,9 +1,3 @@
-/*
-Project Name : MALVIN XD
-Creator      : Malvin King
-Repo         : https://github.com/XdKing2/MALVIN-XD
-Support      : wa.me/263714757857
-*/
 
 const config = require('../settings');
 const { malvin } = require('../malvin');
@@ -28,27 +22,27 @@ async (malvin, mek, m, {
         const uptimeFormatted = runtime(process.uptime());
 
         const message = `
-✨ *ᴄᴏɴɴᴇᴄᴛ ᴡɪᴛʜ ᴍᴀʀɪsᴇʟ* ${readMore}
+✨ *ᴄᴏɴɴᴇᴄᴛ ᴡɪᴛʜ mx* ${readMore}
 🎥 *ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ*  
-🔗 https://youtube.com/@wemacomic
+🔗 https://youtube.com/@mxgamecoder
 
 📞 *ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ*  
-🔗 wa.me/254790375710?text=Hi%20Marisel,%20I%20need%20support!
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*  
+🔗 wa.me/2347041699492?text=Hi%20mx,%20I%20need%20support!
+> *ᴍᴀᴅᴇ ʙʏ mx*  
   
 
         `.trim();
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/cSz0G58r/malvin-xd.jpg' },
+            image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption: message,
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363299029326322@newsletter',
-                    newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+                    newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: 'mxgamecoder',
                     serverMessageId: 143
                 }
             }

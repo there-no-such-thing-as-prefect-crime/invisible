@@ -33,7 +33,7 @@ malvin({
     await malvin.sendMessage(from, {
       image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
       caption: `
-╭── ❍ X-GURU ❍
+╭── ❍ vortex-s2 ❍
 │ ✦ 𝙽𝚊𝚖𝚎   : *${ownerName}*
 │ ✦ 𝙽𝚞𝚖𝚋𝚎𝚛 : *${ownerNumber}*
 │ ✦ 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : *${config.version || '1.0.0'}*

@@ -22,46 +22,46 @@ malvin({
     const name = pushname || "there";
 
     const caption = `
-╭─⌈ ${tinyCaps("X-GURU")} ⌋─
+╭─⌈ ${tinyCaps("𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2")} ⌋─
 │ 👋 Hello, *${name}*!
-│ 🤖 I'm GuruTech, the creator & maintainer
+│ 🤖 I'm 𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛, the creator & maintainer
 │    of this smart WhatsApp bot.
 │ 👨‍💻 *OWNER INFO:*
 │ ───────────────
-│ 🧠 Name    : GuruTech
-│ 🎂 Age     : 20+
-│ 📞 Contact : wa.me/+254735403829
-│ 📺 YouTube : GuruTech
-│            https://youtube.com/@wemacomic
+│ 🧠 Name    : 𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛
+│ 🎂 Age     : 18
+│ 📞 Contact : wa.me/+2347041699492
+│ 📺 YouTube : 𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛
+│            https://youtube.com/@mxgamecoder
 │
 ╰───────────────
 
-> *Made by GuruTech | Powered by X-GURU*
+> *Made by 𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛 | Powered by 𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2*
 `.trim();
 
     await malvin.sendMessage(
       from,
       {
-        image: { url: 'https://files.catbox.moe/75baia.jpg' },
+        image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
         caption,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363421164015033@newsletter',
-            newsletterName: 'X-GURU',
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: 'ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ',
             serverMessageId: 143
           },
           externalAdReply: {
-            title: "X-GURU",
-            body: "GuruTech",
-            thumbnailUrl: 'https://files.catbox.moe/75baia.jpg',
+            title: "ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ",
+            body: "𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛",
+            thumbnailUrl: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png',
             mediaType: 1,
             renderSmallerThumbnail: true,
             showAdAttribution: true,
-            mediaUrl: "https://youtube.com/@wemacomic",
-            sourceUrl: "https://youtube.com/@wemacomic"
+            mediaUrl: "https://youtube.com/@mxgamecoder",
+            sourceUrl: "https://youtube.com/@mxgamecoder"
           }
         }
       },

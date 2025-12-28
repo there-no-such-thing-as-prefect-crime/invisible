@@ -8,7 +8,7 @@ const prefix = config.PREFIX;
 const activeReminders = new Map();
 
 // Reminder image URL
-const REMINDER_IMAGE = 'https://files.catbox.moe/01f9y1.jpg';
+const REMINDER_IMAGE = 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png';
 
 malvin({
     pattern: "reminder",

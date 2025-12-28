@@ -9,7 +9,7 @@ const execPromise = promisify(exec);
 malvin({
     pattern: 'restart',
     alias: ['reboot', 'refresh'],
-    desc: 'Restart the X-GURU bot system',
+    desc: 'Restart the vortex-s2 bot system',
     category: 'system',
     react: '♻️',
     filename: __filename,
@@ -20,9 +20,9 @@ malvin({
             return reply('❗ *Access Denied:*\nOnly the bot owner can use this command.');
         }
 
-        const newsletterJid = config.NEWSLETTER_JID || '120363299029326322@newsletter';
-        const ownerName = config.OWNER_NAME || 'GuruTech';
-        const botName = config.BOT_NAME || 'X-GURU';
+        const newsletterJid = config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter';
+        const ownerName = config.OWNER_NAME || 'mxxgamecoder';
+        const botName = config.BOT_NAME || 'vortex-s2';
 
         // Countdown notification in old style
         await reply(`
@@ -102,7 +102,7 @@ malvin({
 │ 🔧 Next Steps:
 │ 1. Verify PM2 installed
 │ 2. Check Docker restart policy
-│ 3. Contact ${config.OWNER_NAME || 'GuruTech'}
+│ 3. Contact ${config.OWNER_NAME || 'mxxgamecoder'}
 ╰─────────────────────────────
 `.trim(), {
             contextInfo: {
@@ -110,8 +110,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: config.NEWSLETTER_JID || '120363299029326322@newsletter',
-                    newsletterName: config.OWNER_NAME || 'GuruTech',
+                    newsletterJid: config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: config.OWNER_NAME || 'mxxgamecoder',
                     serverMessageId: 143
                 }
             }

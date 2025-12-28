@@ -27,7 +27,7 @@ malvin({
 ├ *sᴇᴛᴜᴘ*: ${data.setup} 🤡
 ├ *ᴘᴜɴᴄʜʟɪɴᴇ*: ${data.punchline} 😂
 ╰──────────────┈⊷
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+> *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -64,7 +64,7 @@ malvin({
 ╭───[ *ғʟɪʀᴛ ʟɪɴᴇ* ]───
 ├ *ʟɪɴᴇ*: ${result} 💘
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -101,7 +101,7 @@ malvin({
 ╭───[ *ᴛʀᴜᴛʜ ǫᴜᴇsᴛɪᴏɴ* ]───
 ├ *ǫᴜᴇsᴛɪᴏɴ*: ${result} ❓
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -138,7 +138,7 @@ malvin({
 ╭───[ *ᴅᴀʀᴇ ᴄʜᴀʟʟᴇɴɢᴇ* ]───
 ├ *ᴅᴀʀᴇ*: ${result} 🎯
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -174,7 +174,7 @@ malvin({
 ╭───[ *ʀᴀɴᴅᴏᴍ ғᴀᴄᴛ* ]───
 ├ *ғᴀᴄᴛ*: ${data.text} 🧠
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -210,7 +210,7 @@ malvin({
 ╭───[ *ᴘɪᴄᴋᴜᴘ ʟɪɴᴇ* ]───
 ├ *ʟɪɴᴇ*: ${pickupline} 💬
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -261,7 +261,7 @@ malvin({
 ├ *ᴜsᴇʀ*: @${mentionedUser.split('@')[0]} 👤
 ├ *ᴄʜᴀʀᴀᴄᴛᴇʀ*: ${userCharacterSelection} 🔥
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(from, {
             text: caption,
@@ -317,7 +317,7 @@ malvin({
 ├ *ᴄᴏᴜɴᴛ*: ${count} 🔄
 ├ *ᴍᴇssᴀɢᴇ*: ${repeatedMessage}
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(m.from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(m.from, { react: { text: '✅', key: m.key } });
@@ -381,7 +381,7 @@ malvin({
 ├ *ᴄᴏᴜɴᴛ*: ${count} 📤
 ├ *sᴛᴀᴛᴜs*: sent successfully ✅
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(m.from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(m.from, { react: { text: '✅', key: m.key } });
@@ -414,7 +414,7 @@ malvin({
 ╭───[ *ʀᴇᴀᴅ ᴍᴏʀᴇ* ]───
 ├ *ᴛᴇxᴛ*: ${message} 📝
 ╰──────────────┈⊷
->  *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+>  *ᴍᴀᴅᴇ ʙʏ ᴍx*`;
 
         await malvin.sendMessage(m.from, { text: caption, contextInfo: { mentionedJid: [m.sender] } }, { quoted: mek });
         await malvin.sendMessage(m.from, { react: { text: '✅', key: m.key } });

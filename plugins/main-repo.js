@@ -5,15 +5,15 @@ const { malvin } = require('../malvin');
 malvin({
     pattern: "repo",
     alias: ["sc", "script", "info"],
-    desc: "Show X-GURU GitHub repository information",
+    desc: "Show vortex-s2 GitHub repository information",
     react: "✨",
     category: "info",
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
 
-    const githubRepoURL = "https://github.com/ADDICT-HUB/X-GURU";
-    const imageURL = "https://i.ibb.co/83NQTRL/xguru-1765723475694.jpg";
+    const githubRepoURL = "https://github.com/msgamecoder/vortex-s2";
+    const imageURL = "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png";
 
     try {
         const match = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -62,8 +62,8 @@ async (conn, mek, m, { from, reply }) => {
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363421164015033@newsletter",
-                    newsletterName: "X-GURU Updates",
+                    newsletterJid: "0029Vb7Ew0t8fewhGUdO1J0s@newsletter",
+                    newsletterName: "Vortex S2 Updates",
                     serverMessageId: 1
                 }
             }

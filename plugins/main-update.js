@@ -14,10 +14,10 @@ malvin({
     filename: __filename
 }, async (malvin, mek, m, { from, sender, reply }) => {
     try {
-        const ownerName = config.OWNER_NAME || 'GuruTech';
-        const botName = config.BOT_NAME || 'X-GURU';
-        const repoLink = config.REPO || 'https://github.com/ADDICT-HUB/X-GURU';
-        const timezone = config.TIMEZONE || 'Africa/Nairobi';
+        const ownerName = config.OWNER_NAME || '𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛';
+        const botName = config.BOT_NAME || '𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2';
+        const repoLink = config.REPO || 'https://github.com/msgamecoder/vortex-s2';
+        const timezone = config.TIMEZONE || 'Africa/Nigeria';
 
         const start = process.hrtime.bigint();
 
@@ -50,7 +50,7 @@ Loading: `; // loading bar line
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363421164015033@newsletter',
+                    newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
                     newsletterName: ownerName,
                     serverMessageId: 143
                 }

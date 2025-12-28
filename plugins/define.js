@@ -31,7 +31,7 @@ async (malvin, mek, m, { from, q, reply }) => {
 ✍️ *Example*: ${example}  
 📝 *Synonyms*: ${synonyms}  
 
-🔗 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+🔗 *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*`;
 
         if (audio) {
             await malvin.sendMessage(from, { audio: { url: audio }, mimetype: 'audio/mpeg' }, { quoted: mek });

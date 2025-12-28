@@ -38,7 +38,7 @@ malvin({
       + `┃📅 *Joined:* ${user.created}\n`
       + `┃🔗 *Profile:* [Click Here](${user.url})\n`
       + `╰━━━⪼\n\n`
-      + `🔹 *Powered BY malvin*`;
+      + `🔹 *Powered BY mx*`;
 
     await malvin.sendMessage(from, {
       image: { url: user.avatar },

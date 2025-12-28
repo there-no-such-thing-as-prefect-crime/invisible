@@ -58,14 +58,14 @@ malvin({
         caption: `📥 *ғɪʟᴇ ᴅᴇᴛᴀɪʟs* 📥\n\n` +
           `🔖 *Nᴀᴍᴇ*: ${fileName}\n` +
           `📏 *Sɪᴢᴇ*: ${fileSize}\n\n` +
-          `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`,
+          `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363299029326322@newsletter',
-            newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: 'ⱽᴼᴿᵀᴱˣ ˢ²',
             serverMessageId: 143
           }
         }
@@ -77,14 +77,14 @@ malvin({
         caption: `📥 *ғɪʟᴇ ᴅᴇᴛᴀɪʟs* 📥\n\n` +
           `🔖 *Nᴀᴍᴇ*: ${fileName}\n` +
           `📏 *Sɪᴢᴇ*: ${fileSize}\n\n` +
-          `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`,
+          `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363299029326322@newsletter',
-            newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: 'ⱽᴼᴿᵀᴱˣ ˢ²',
             serverMessageId: 143
           }
         }
@@ -98,14 +98,14 @@ malvin({
         caption: `📥 *ғɪʟᴇ ᴅᴇᴛᴀɪʟs* 📥\n\n` +
           `🔖 *Nᴀᴍᴇ*: ${fileName}\n` +
           `📏 *Sɪᴢᴇ*: ${fileSize}\n\n` +
-          `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`,
+          `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363299029326322@newsletter',
-            newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: 'ⱽᴼᴿᵀᴱˣ ˢ²',
             serverMessageId: 143
           }
         }

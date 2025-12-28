@@ -27,7 +27,7 @@ malvin({
     pattern: "playx", 
     alias: ["yta"], 
     react: "☘️", 
-    desc: "Download YouTube song via X-GURU API", 
+    desc: "Download YouTube song via vortex-s2 API", 
     category: "main", 
     use: '.play2 <query or youtube url>', 
     filename: __filename 
@@ -51,7 +51,7 @@ malvin({
             const data = await apiResponse.json();
             if (data.status && data.result.download_url) {
                 const songInfo = `
-${toFancyFont("*X-GURU*")} sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ by GuruTech
+${toFancyFont("*vortex-s2*")} sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ by mxgamecoder
 ${toFancyFont("*Title*")}: ${data.result.title}
 ${toFancyFont("*URL*")}: ${data.result.video_url}
 `;
@@ -122,7 +122,7 @@ malvin({
         if (!q) return reply("ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ a sᴏɴɢ ɴᴀᴍᴇ");
 
         await malvin.sendMessage(from, { 
-            text: `*X-GURU* ${toFancyFont("Searching for")} "${q}"`,
+            text: `*vortex-s2* ${toFancyFont("Searching for")} "${q}"`,
             viewOnce: true
         }, { quoted: mek });
 
@@ -140,7 +140,7 @@ malvin({
         if (!data.status || !data.result.download_url) throw new Error('Invalid API response');
 
         const caption =
-`${toFancyFont("*X-GURU*")} sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ by GuruTech
+`${toFancyFont("*vortex-s2*")} sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ by mxgamecoder
 ┏─────────────⊷
 ┇๏ *ᴛɪᴛʟᴇ*    –  ${data.result.title || song.title}
 ┇๏ *ᴅᴜʀᴀᴛɪᴏɴ* –  ${song.timestamp}
@@ -172,7 +172,7 @@ malvin({
     } catch (error) {
         console.error('Play3 command error:', error);
         await malvin.sendMessage(from, {
-            text: `*X-GURU* ${toFancyFont("error! Try again")}`,
+            text: `*vortex-s2* ${toFancyFont("error! Try again")}`,
             viewOnce: true
         }, { quoted: mek });
         await doReact("❌");

@@ -42,7 +42,7 @@ malvin({
 *🪩 REPOSITORY:* ${repository}
 *🔗 NPM URL:* ${npmUrl}
 
-> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ
+> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²
 `;
 
     // Send the message

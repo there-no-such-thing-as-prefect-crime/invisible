@@ -34,7 +34,7 @@ malvin({
 ├ *ɪɴᴘᴜᴛ*: ${text} ✍️
 ${fonts}
 ╰──────────────⬣
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+> *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
         await malvin.sendMessage(from, {
             text: caption,

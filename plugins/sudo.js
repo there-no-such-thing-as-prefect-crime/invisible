@@ -60,7 +60,7 @@ malvin({
 > *╰──────────────┈⊷`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/qumhu4.jpg' },
+            image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption,
             contextInfo: { mentionedJid: [m.sender, target] }
         }, { quoted: mek });
@@ -117,7 +117,7 @@ malvin({
 > *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/qumhu4.jpg' },
+            image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption,
             contextInfo: { mentionedJid: [m.sender, target] }
         }, { quoted: mek });
@@ -167,7 +167,7 @@ ${ownerList}
 > *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/qumhu4.jpg' },
+            image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption,
             contextInfo: { mentionedJid: [m.sender] }
         }, { quoted: mek });

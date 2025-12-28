@@ -28,7 +28,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
 👥 *Followers*: ${data.followers} | Following: ${data.following}
 📅 *Created At*: ${new Date(data.created_at).toDateString()}
 🔭 *Public Gists*: ${data.public_gists}
-> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
           const sentMsg = await malvin.sendMessage(from,{image:{url: data.avatar_url },caption: userInfo },{quoted:mek })
     } catch (e) {
         console.log(e);

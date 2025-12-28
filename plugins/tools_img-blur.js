@@ -75,7 +75,7 @@ malvin({
 
     await malvin.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ xᴅ*`
+      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍx*`
     });
 
   } catch (error) {

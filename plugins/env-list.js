@@ -39,7 +39,7 @@ malvin({
 async (malvin, mek, m, { from, reply, isOwner }) => {
     if (!isOwner) return reply("ᴄᴏᴍᴍᴀɴᴅ ʀᴇsᴇʀᴠᴇᴅ ғᴏʀ ᴏᴡɴᴇʀ ᴀɴᴅ ᴍʏ ᴄʀᴇᴀᴛᴏʀ ᴀʟᴏɴᴇ");
 
-    const menu = `┏─〔 *ᴍᴇʀᴄᴇᴅᴇs* 〕──⊷
+    const menu = `┏─〔 *ⱽᴼᴿᵀᴱˣ ˢ²* 〕──⊷
 ┇๏ *1. ᴀᴜᴛᴏ ғᴇᴀᴛᴜʀᴇs*
 ┇๏ 1.2 - ᴀᴜᴛᴏ_ʀᴇᴀᴄᴛ (${isEnabled(config.AUTO_REACT) ? "✅" : "❌"})
 ┗──────────────⊷
@@ -72,7 +72,7 @@ _ʀᴇᴘʟʏ ᴡɪᴛʜ: 1.1, 2.2, ᴇᴛᴄ ᴛᴏ ᴛᴏɢɢʟᴇ ᴏɴ/ᴏғ
 
     const sent = await malvin.sendMessage(from, {
         caption: menu,
-        image: { url: "https://files.catbox.moe/t6zgqv.jpg" }
+        image: { url: "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png" }
     }, { quoted: mek });
 
     const messageID = sent.key.id;

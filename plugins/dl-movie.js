@@ -54,7 +54,7 @@ malvin(
 
             const infoMsg = `🎬 *${cleanTitle}* ${yearMatch ? `(${yearMatch[1]})` : ''}\n\n` +
                            `📝 ${shortDesc}\n\n` +
-                           `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+                           `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
             // 3. Check file size (using secure axios for the download link)
             let fileSizeMB;

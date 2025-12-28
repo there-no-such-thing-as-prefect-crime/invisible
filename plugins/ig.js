@@ -65,7 +65,7 @@ malvin({
               `❤️ *Likes*: ${likeCount}\n` +
               `💬 *Comments*: ${commentCount}\n` +
               `📝 *Caption*: ${caption}\n\n` +
-              `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`,
+              `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²ʟ`,
             contextInfo: {
               mentionedJid: [m.sender],
               forwardingScore: 999,
@@ -81,7 +81,7 @@ malvin({
               `❤️ *Likes*: ${likeCount}\n` +
               `💬 *Comments*: ${commentCount}\n` +
               `📝 *Caption*: ${caption}\n\n` +
-              `> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`,
+              `> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²ʟ`,
             contextInfo: {
               mentionedJid: [m.sender],
               forwardingScore: 999,

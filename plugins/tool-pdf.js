@@ -29,7 +29,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
                 caption: `
 *📄 PDF created successully!*
 
-> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`
+> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`
             }, { quoted: mek });
         });
 

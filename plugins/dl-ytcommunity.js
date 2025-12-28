@@ -25,7 +25,7 @@ async (malvin, mek, m, { from, args, q, reply, react }) => {
         let caption = `📢 *YouTube Community Post* 📢\n\n` +
                       `📜 *Content:* ${post.content}
 
-> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
         if (post.images && post.images.length > 0) {
             for (const img of post.images) {

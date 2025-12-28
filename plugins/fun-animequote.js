@@ -20,16 +20,16 @@ malvin({
 
         if (!quote.SUCCESS) return reply("❌ Failed to fetch anime quote");
 
-        const quoteText = `🌸 *${quote.MESSAGE.anime}*\n\n"${quote.MESSAGE.quote}"\n\n- ${quote.MESSAGE.author}\n\n> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+        const quoteText = `🌸 *${quote.MESSAGE.anime}*\n\n"${quote.MESSAGE.quote}"\n\n- ${quote.MESSAGE.author}\n\n> ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`;
 
         await malvin.sendMessage(mek.chat, { 
-            image: { url: 'https://files.catbox.moe/01f9y1.jpg' }, // Anime thumbnail
+            image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' }, // Anime thumbnail
             caption: quoteText,
             contextInfo: {
                 externalAdReply: {
                     title: quote.MESSAGE.anime,
                     body: "Random Anime Quote",
-                    thumbnail: await getImageBuffer('https://files.catbox.moe/01f9y1.jpg'),
+                    thumbnail: await getImageBuffer('https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png'),
                     mediaType: 1,
                     mediaUrl: "https://myanimelist.net/",
                     sourceUrl: "https://myanimelist.net/"

@@ -345,5 +345,3 @@ async (malvin, mek, m, { from, reply }) => {
         reply(`❌ *Error!* ${e.message}`);
     }
 });
-
-// ᴍᴀʟᴠɪɴ ᴋɪɴɢ

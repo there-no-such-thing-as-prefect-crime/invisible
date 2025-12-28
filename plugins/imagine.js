@@ -27,7 +27,7 @@ malvin({
 
     await malvin.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `💸 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ* 🚀\n✨ Prompt: *${q}*`
+      caption: `💸 *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²* 🚀\n✨ Prompt: *${q}*`
     });
 
   } catch (error) {
@@ -61,7 +61,7 @@ malvin({
 
     await malvin.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `💸 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*🚀\n✨ Prompt: *${q}*`
+      caption: `💸 *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*🚀\n✨ Prompt: *${q}*`
     });
 
   } catch (error) {
@@ -95,7 +95,7 @@ malvin({
 
     await malvin.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `💸 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*🚀\n✨ Prompt: *${q}*`
+      caption: `💸 *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*🚀\n✨ Prompt: *${q}*`
     });
 
   } catch (error) {

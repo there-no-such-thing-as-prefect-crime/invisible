@@ -54,7 +54,7 @@ ${videoList}
 > *powered by malvin* ♡`;
 
         await malvin.sendMessage(from, {
-            image: { url: config.ALIVE_IMG || 'https://files.catbox.moe/01f9y1.jpg' },
+            image: { url: config.ALIVE_IMG || 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption,
             contextInfo: { mentionedJid: [m.sender] }
         }, { quoted: mek });

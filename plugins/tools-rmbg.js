@@ -75,7 +75,7 @@ malvin({
 
     await malvin.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `Background removed\n\n> *Powered by ᴍᴀʟᴠɪɴ-xᴅ*`
+      caption: `Background removed\n\n> *Powered by mx*`
     });
 
   } catch (error) {

@@ -1,5 +1,3 @@
-// Malvin King- MALVIN XD 
-// Dont Remove Credit From File 
 
 const { malvin } = require("../malvin");
 
@@ -54,8 +52,8 @@ malvin({
       return await message.reply(
         "❌ No valid group JIDs found\n" +
         "Examples:\n" +
-        ".fwd 120363411055156472@g.us,120363333939099948@g.us\n" +
-        ".fwd 120363411055156472 120363333939099948"
+        ".fwd 0029Vb7Ew0t8fewhGUdO1J0s@g.us,120363333939099948@g.us\n" +
+        ".fwd 0029Vb7Ew0t8fewhGUdO1J0s 120363333939099948"
       );
     }
 

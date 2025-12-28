@@ -27,7 +27,7 @@ malvin({
 ${text}
 
 ─────────────────
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*
+> *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*
     `;
 
     // Send the formatted message

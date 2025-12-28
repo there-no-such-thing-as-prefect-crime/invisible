@@ -24,14 +24,14 @@ malvin({
     const uptimeFormatted = formatRemainingTime(uptimeMs);
 
     const status = `
-*ᴍᴇʀᴄᴇᴅᴇs ʜᴀᴅ ʙᴇᴇɴ ʀᴜɴɴɪɴɢ ғᴏʀ*
+*ᴍ𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2 ʜᴀᴅ ʙᴇᴇɴ ʀᴜɴɴɪɴɢ ғᴏʀ*
 *┏──────────────⊷*
 ${uptimeFormatted}
 *┗──────────────⊷*
     `;
 
     await malvin.sendMessage(from, {
-      image: { url: "https://files.catbox.moe/h3kzl4.jpg" },
+      image: { url: "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png" },
       caption: status.trim(),
     }, { quoted: mek });
     

@@ -23,7 +23,7 @@ try{
 let res = await axios.get('https://api.lolicon.app/setu/v2?num=1&r18=0&tag=lolicon')
 let wm = `😎 Random Garl image
 
- *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+ *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*`
 await malvin.sendMessage(from, { image: { url: res.data.data[0].urls.original }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -46,7 +46,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/waifu')
 let wm = `🩵 Random Waifu image
 
- *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+ *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*`
 await malvin.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -69,7 +69,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/neko')
 let wm = `🩷 Random neko image
 
- *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+ *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*`
 await malvin.sendMessage(from, { image: { url: res.data.url  }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -92,7 +92,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/megumin')
 let wm = `❤️‍🔥Random megumin image
 
- *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+ *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*`
 await malvin.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -138,7 +138,7 @@ try{
 let res = await axios.get('https://api.waifu.pics/sfw/awoo')
 let wm = `😎 Random awoo image
 
- *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+ *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*`
 await malvin.sendMessage(from, { image: { url: res.data.url }, caption: wm}, { quoted: mek })
 } catch (e) {
 reply(cants)
@@ -159,7 +159,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await malvin.sendMessage(from, { image: { url: data.url }, caption: '*ANIME GIRL IMAGE* 🥳\n\n\n *>  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`*' }, { quoted: mek });
+        await malvin.sendMessage(from, { image: { url: data.url }, caption: '*ANIME GIRL IMAGE* 🥳\n\n\n *>  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²`*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -179,7 +179,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ' }, { quoted: mek });
+        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -199,7 +199,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ' }, { quoted: mek });
+        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -219,7 +219,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ' }, { quoted: mek });
+        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -239,7 +239,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ' }, { quoted: mek });
+        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -259,7 +259,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ' }, { quoted: mek });
+        await malvin.sendMessage(from, { image: { url: data.url }, caption: 'ANIME GIRL IMAGE 👾\n\n\n >  ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`*Error Fetching Anime Girl image*: ${e.message}`);
@@ -279,7 +279,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await malvin.sendMessage(from, { image: { url: data.message }, caption: '> * ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ ' }, { quoted: mek });
+        await malvin.sendMessage(from, { image: { url: data.message }, caption: '> * ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ² ' }, { quoted: mek });
     } catch (e) {
         console.log(e); // ❯❯ Powered by MALVIN XD 👑
         reply(`єяяσя ƒєт¢нιηg ∂σg ιмαgє: ${e.message}`);
@@ -301,7 +301,7 @@ async (malvin, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, s
         const data = response.data;
 
         // Send the cat image with a caption
-        await malvin.sendMessage(from, { image: { url: data[0].url }, caption: '𝐌𝐀𝐋𝐕𝐈𝐍 𝐗𝐃 DOWNLOAD CAT 🐈 PICS\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*' }, { quoted: mek });
+        await malvin.sendMessage(from, { image: { url: data[0].url }, caption: '𝐌𝐀𝐋𝐕𝐈𝐍 𝐗𝐃 DOWNLOAD CAT 🐈 PICS\n\n> *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`Error Fetching Cat Image 🤕: ${e.message}`);

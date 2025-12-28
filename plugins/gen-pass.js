@@ -1,5 +1,5 @@
 //---------------------------------------------
-//           MALVIN-XD  
+//           Vortex S2 
 //---------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE OR REMOVE THIS CREDIT⚠️  
 //---------------------------------------------
@@ -95,7 +95,7 @@ malvin({
             `🔹 *Strength:* ${strength}\n` +
             `🔹 *Password:* ${generatedPassword}\n\n` +
             `⚠️ *Do not share this password!*\n` +
-            `🔹 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ* 👑`
+            `🔹 *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²* 👑`
         );
 
         // Send clean password after 2-second delay for easy copying

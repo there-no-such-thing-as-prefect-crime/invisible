@@ -1,5 +1,5 @@
 //---------------------------------------------
-//           MALVIN-XD  
+//           Vortex S2
 //---------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE OR REMOVE THIS CREDIT⚠️  
 //---------------------------------------------
@@ -8,7 +8,7 @@ const { malvin, commands } = require('../malvin');
 const axios = require('axios');
 
 /**
- * Fetches a pairing code for the MALVIN-XD bot.
+ * Fetches a pairing code for the vortex bot.
  * @param {Object} malvin - The bot instance.
  * @param {Object} mek - The message object.
  * @param {Object} m - Message metadata and utilities.
@@ -44,7 +44,7 @@ malvin({
         }
 
         // Make API request
-        const response = await axios.get(`https://session-v35f.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://vortex-series.onrender.com//code?number=${encodeURIComponent(phoneNumber)}`);
 
         // Validate response
         if (!response.data || typeof response.data !== 'object' || !response.data.code) {
@@ -58,7 +58,7 @@ malvin({
             `*PAIRING CODE*\n\n` +
             `🔹 *Phone Number:* ${phoneNumber}\n` +
             `🔹 *Pairing Code:* ${pairingCode}\n` +
-            `🔹 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ* `
+            `🔹 *ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²* `
         );
 
         // Send clean code after 2-second delay

@@ -1,5 +1,5 @@
 //---------------------------------------------
-//           MALVIN-XD  
+//           vortex  
 //---------------------------------------------
 //  ⚠️ DO NOT MODIFY THIS FILE OR REMOVE THIS CREDIT⚠️  
 //---------------------------------------------
@@ -53,7 +53,7 @@ malvin({
         const caption = `🔗 *MALVIN-XD URL SHORTENER*\n\n` +
                        `🔹 *Original URL:* ${longUrl}\n` +
                        `🔹 *Shortened URL:* ${shortUrl}\n\n` +
-                       `🔹 *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+                       `🔹 *ᴍᴀᴅᴇ ʙʏ mxgamecoder*`;
 
         // Attempt to fetch image from config.MENU_IMAGE_URL
         const imageAvailable = config.MENU_IMAGE_URL && isValidUrl(config.MENU_IMAGE_URL);

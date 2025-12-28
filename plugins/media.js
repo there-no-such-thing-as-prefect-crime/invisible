@@ -46,12 +46,12 @@ malvin({
 
 async function sendDailyFact(malvin) {
     try {
-        const day = moment().tz('Africa/Nairobi').format('dddd');
+        const day = moment().tz('Africa/Nigeria').format('dddd');
         const theme = dailyThemes[day];
         const res = await axios.get('https://uselessfacts.jsph.pl/random.json?language=fr');
         const fact = res.data.text;
 
-        const text = `📚 Here's a *${theme}* fact for your *${day}* morning:\n\n*${fact}*\n\n> _Powered by Malvin King_`;
+        const text = `📚 Here's a *${theme}* fact for your *${day}* morning:\n\n*${fact}*\n\n> _Powered by vortex s2_`;
 
         // Replace this with your broadcast logic (e.g., sending to owner, group, or subscribers)
         malvin.sendMessage(config.OWNER_NUMBER + "@s.whatsapp.net", { text }, { quoted: null });
@@ -62,8 +62,8 @@ async function sendDailyFact(malvin) {
 }
 
 function scheduleDailyFact(malvin) {
-    const now = moment().tz('Africa/Nairobi');
-    let next6AM = moment().tz('Africa/Nairobi').set({ hour: 6, minute: 0, second: 0, millisecond: 0 });
+    const now = moment().tz('Africa/Nigeria');
+    let next6AM = moment().tz('Africa/Nigeria').set({ hour: 6, minute: 0, second: 0, millisecond: 0 });
 
     if (now.isAfter(next6AM)) next6AM.add(1, 'days');
     const delay = next6AM.diff(now);

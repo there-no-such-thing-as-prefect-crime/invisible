@@ -57,7 +57,7 @@ malvin(
           contextInfo: {
             externalAdReply: {
               title,
-              body: 'ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ',
+              body: 'ᴍᴀᴅᴇ ʙʏ ⱽᴼᴿᵀᴱˣ ˢ²',
               mediaType: 1,
               thumbnail: thumbBuf,
               mediaUrl: videoUrl,

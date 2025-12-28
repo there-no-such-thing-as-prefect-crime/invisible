@@ -2,7 +2,7 @@ const { malvin } = require("../malvin");
 const config = require("../settings");
 const moment = require("moment");
 
-const ALIVE_IMG = "https://files.catbox.moe/75baia.jpg";
+const ALIVE_IMG = "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png";
 
 malvin({
     pattern: "alive2",
@@ -39,7 +39,7 @@ malvin({
         // Stylish box menu
         const msg = `
 ╔═══════════════════════
-║  『 ${toTinyCap("X-GURU Status")} 』
+║  『 ${toTinyCap("Vortex S2 Status")} 』
 ╠═══════════════════════
 ║ 👤 User      : ${pushname}
 ║ 🕓 Time      : ${currentTime}
@@ -47,8 +47,8 @@ malvin({
 ║ 🧭 Uptime    : ${uptime}
 ║ ⚙️ Mode      : ${config.MODE}
 ║ 🔰 Version   : ${config.version}
-║ 💻 Owner     : GuruTech
-║ 🤖 Bot Name  : X-GURU
+║ 💻 Owner     : 𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛
+║ 🤖 Bot Name  : Vortex S2
 ╠═══════════════════════
 ║ 🌟 Keep this session safe
 ║ 🔗 Forever respected 💀
@@ -64,11 +64,11 @@ malvin({
                 isForwarded: true,
                 externalAdReply: {
                     showAdAttribution: true,
-                    title: 'Subscribe to GuruTech Newsletter',
+                    title: 'Subscribe to mx Newsletter',
                     body: 'Click to visit',
                     mediaType: 2,
                     thumbnailUrl: ALIVE_IMG,
-                    mediaUrl: 'https://shorturl.at/DYEi0' // Your newsletter link
+                    mediaUrl: 'https://chat.whatsapp.com/DXasbP5xOeT77AmzaPykEw' // Your newsletter link
                 }
             }
         }, { quoted: mek });
