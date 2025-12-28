@@ -44,7 +44,7 @@ malvin({
 🌅 Sunrise: ${new Date(data.sys.sunrise * 1000).toLocaleTimeString()}
 🌄 Sunset: ${new Date(data.sys.sunset * 1000).toLocaleTimeString()}
 
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*
+> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*
 `;
 
         return reply(weather);

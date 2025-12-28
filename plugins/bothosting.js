@@ -1,11 +1,3 @@
-/*
-Project Name : MALVIN XD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https://github.com/XdKing2/MALVIN-XD
-Support      : wa.me/263714757857
-*/
-
-
 const { malvin } = require('../malvin');
 
 const more = String.fromCharCode(8206);
@@ -38,7 +30,7 @@ Once your done creating and verifying the two account, move over to the next ste
 
 *NEXT STEPS*
 Next step is to fork the bot repository. Click the link
-https://github.com/betingrich4/Mercedes
+https://github.com/msgamecoder/Vortex-S2
 
 Then download the zip file.
 
@@ -56,7 +48,7 @@ Upload your bot code you have downloaded
 Start server Enjoy 😉
 
 *Watch:* tutorial sooon
-https://youtube.com/@wemacomic
+https://youtube.com/@mxgamecoder
         `.trim();
 
         await malvin.sendMessage(from, {
@@ -67,8 +59,8 @@ https://youtube.com/@wemacomic
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '1120363299029326322@newsletter',
-                    newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+                    newsletterJid: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png@newsletter',
+                    newsletterName: '𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2',
                     serverMessageId: 143
                 }
             }

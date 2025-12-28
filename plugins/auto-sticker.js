@@ -20,8 +20,8 @@ async (malvin, mek, m, { from, body }) => {
 
                     await malvin.sendMessage(from, {
                         sticker: stickerBuffer,
-                        packname: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
-                        author: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑'
+                        packname: '𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛',
+                        author: '𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛'
                     }, { quoted: mek });
                 } else {
                     console.warn(`Sticker not found: ${stickerPath}`);

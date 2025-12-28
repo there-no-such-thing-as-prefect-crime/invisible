@@ -52,11 +52,11 @@ malvin({
 ╭───[ *ʙᴀɴ ᴜsᴇʀ* ]───
 ├ *ᴜsᴇʀ*: ${target.replace('@s.whatsapp.net', '')} ⛔
 ├ *sᴛᴀᴛᴜs*: banned successfully 🚫
-╰───[ *ᴍᴇʀᴄᴇᴅᴇs* ]───
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+╰───[ *ⱽᴼᴿᵀᴱˣ ˢ²* ]───
+> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg' },
+            image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption,
             contextInfo: { mentionedJid: [m.sender, target] }
         }, { quoted: mek });
@@ -109,11 +109,11 @@ malvin({
 ├ *ᴜsᴇʀ*: ${target.replace('@s.whatsapp.net', '')} ✅
 ├ *sᴛᴀᴛᴜs*: unbanned successfully 🎉
 │
-╰───[ *ᴍᴇʀᴄᴇᴅᴇs* ]───
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+╰───[ *ⱽᴼᴿᵀᴱˣ ˢ²* ]───
+> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://url.bwmxmd.online/Adams.h0gop5c7.jpeg' },
+            image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption,
             contextInfo: { mentionedJid: [m.sender, target] }
         }, { quoted: mek });
@@ -157,11 +157,11 @@ malvin({
 ╭───[ *ʙᴀɴ ʟɪsᴛ* ]───
 ├ *ᴛᴏᴛᴀʟ*: ${banned.length} users ⛔
 ${banList}
-╰───[ *ᴍᴀʟᴠɪɴ-xᴅ* ]───
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+╰───[ *ⱽᴼᴿᵀᴱˣ ˢ²* ]───
+> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg' },
+            image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
             caption,
             contextInfo: { mentionedJid: [m.sender] }
         }, { quoted: mek });

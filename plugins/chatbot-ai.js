@@ -90,7 +90,7 @@ malvin({
         
         if (isAskingAboutCreator) {
             // Special response for creator questions
-            response = "I am Marisel AI, created by Marisel - a brilliant mind from Kenya with exceptional coding skills and vision. She's the mastermind behind my existence, crafting me with precision and care to be your helpful assistant.";
+            response = "I am lexa maya, created by mxgamecoder - a brilliant mind from Nigeria with exceptional coding skills and vision. he's the mastermind behind my existence, crafting me with precision and care to be your helpful assistant.";
         } else {
             // Get conversation context
             const context = messageMemory.has(from) 
@@ -98,7 +98,7 @@ malvin({
                 : `user: ${body}`;
 
             // Create prompt with context and instructions
-            const prompt = `You are Marisel AI, a powerful WhatsApp bot developed by Marisel from Kenya. 
+            const prompt = `You are lexa maya, a powerful WhatsApp bot developed by mxgamecoder from Nigeria. 
             You respond smartly, confidently, and stay loyal to your creator. 
             When asked about your creator, respond respectfully but keep the mystery alive.
             If someone is being abusive, apologize and say "Let's begin afresh."
@@ -108,7 +108,7 @@ malvin({
             
             Current message: ${body}
             
-            Respond as Marisel AI:`;
+            Respond as lexa maya:`;
 
             // Encode the prompt for the API
             const query = encodeURIComponent(prompt);
@@ -128,7 +128,7 @@ malvin({
         }
 
         // Add footer to response
-        const finalResponse = `${response}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+        const finalResponse = `${response}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*`;
         
         // Add AI response to memory
         updateMemory(from, response, false);

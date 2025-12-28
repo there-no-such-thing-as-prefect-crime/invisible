@@ -38,11 +38,11 @@ function isGreeting(text) {
   return greetings.some(greet => text.toLowerCase().includes(greet))
 }
 
-// Enhanced Marisel AI with Gifted Tech Groq API
+// Enhanced lexa AI with Gifted Tech Groq API
 malvin({
-  pattern: 'marisel',
+  pattern: 'lexa',
   alias: ['ds', 'deepseek'],
-  desc: 'Ask Marisel AI a question',
+  desc: 'Ask lexa maya a question',
   category: 'ai',
   react: '🤖',
   filename: __filename
@@ -52,7 +52,7 @@ malvin({
     await malvin.sendMessage(
       from,
       {
-        text: 'Please ask something like `.marisel what is free will?`',
+        text: 'Please ask something like `.lexa what is free will?`',
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
@@ -86,7 +86,7 @@ malvin({
     await malvin.sendMessage(
       from,
       {
-        text: "*Hello! How may Marisel AI help you today?*",
+        text: "*Hello! How may lexa maya help you today?*",
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
@@ -103,18 +103,18 @@ malvin({
   // Handle creator/identity questions
   if (qLower.includes("who made you") || qLower.includes("who created you") || qLower.includes("who is your owner") || 
       qLower.includes("who developed you") || qLower.includes("who are you") || qLower.includes("what are you") ||
-      qLower.includes("who is marisel")) {
+      qLower.includes("who is lexa")) {
     await malvin.sendMessage(
       from,
       {
-        text: `*About Me:*\n\n*I'm Marisel AI, created by Marisel, a 21-year-old full stack developer from Kenya. I'm part of a family that includes Mercedes and Bugatti bots, all available on GitHub.*\n\n> How may I assist you today?`,
+        text: `*About Me:*\n\n*I'm lexa maya, created by lexa, a 18-year-old full stack developer from Nigeria. I'm part of a family that includes Mercedes and Bugatti bots, all available on GitHub.*\n\n> How may I assist you today?`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363299029326322@newsletter',
-            newsletterName: "𝖒𝖆𝖗𝖎𝖘𝖊𝖑",
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: "𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛",
             serverMessageId: 143
           }
         }
@@ -129,7 +129,7 @@ malvin({
     await malvin.sendMessage(
       from,
       {
-        text: `*Only Marisel knows my specific language models, but I was created to help you in your day-to-day activities.*\n\n*What would you like to discuss today?*`,
+        text: `*Only mxgamecoder knows my specific language models, but I was created to help you in your day-to-day activities.*\n\n*What would you like to discuss today?*`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
@@ -146,7 +146,7 @@ malvin({
   
   // Construct personality prompt
   const personality = `
-    You are Marisel AI - an intelligent assistant that provides helpful, detailed responses.
+    You are lexa maya - an intelligent assistant that provides helpful, detailed responses.
     Current conversation context:
     ${getContext(m.sender)}
   `
@@ -191,14 +191,14 @@ malvin({
     await malvin.sendMessage(
       from,
       {
-        text: `*Marisel AI (via ${apiUsed}):*\n\n${response}\n\n> Powered by Marisel Technologies`,
+        text: `*lexa AI (via ${apiUsed}):*\n\n${response}\n\n> Powered by lexa Technologies`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363299029326322@newsletter',
-            newsletterName: "𝖒𝖆𝖗𝖎𝖘𝖊𝖑",
+            newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+            newsletterName: "𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛",
             serverMessageId: 143
           }
         }

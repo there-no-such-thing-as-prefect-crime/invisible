@@ -96,7 +96,7 @@ malvin({
         // Send the response with the image and Bible list
         await malvin.sendMessage(m.chat, {
             image: { url: imageUrl },
-            caption: `📖 *Bible List By Malvin xᴅ*:\n\n` +
+            caption: `📖 *Bible List By Vortex-S2*:\n\n` +
                      `Here is the complete list of books in the Bible:\n\n` +
                      bibleList.trim() // Added the Bible list text
         }, { quoted: mek });

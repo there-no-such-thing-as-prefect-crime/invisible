@@ -42,7 +42,7 @@ malvin({
 │ • .alive      - Check if bot is online
 │ • .ping       - Check bot speed
 │ • .menu       - Show main menu
-│ • .menu2      - Alternate menu
+│ • .vortex      - Alternate menu
 │ • .ai         - Chat with AI bot
 │ • .system     - Bot system status
 │ • .owner      - Owner info
@@ -100,15 +100,15 @@ ${config.DESCRIPTION || ""}
         await malvin.sendMessage(
             from,
             {
-                image: { url: "https://i.ibb.co/83NQTRL/xguru-1765723475694.jpg" },
+                image: { url: "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png" },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363421164015033@newsletter',
-                        newsletterName: 'GuruTech',
+                        newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                        newsletterName: '𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2',
                         serverMessageId: 143
                     }
                 }

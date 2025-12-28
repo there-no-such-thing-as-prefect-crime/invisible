@@ -34,8 +34,8 @@ malvin({
     const hasBadWord = config.ANTI_BAD_WORD === "true" && badWords.some(word => text.includes(word));
     const hasLink = config.ANTI_LINK === "true" && linkPatterns.some(pattern => pattern.test(body));
 
-    const ownerName = config.OWNER_NAME || "GuruTech";
-    const botName = config.BOT_NAME || "X-GURU";
+    const ownerName = config.OWNER_NAME || "𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛";
+    const botName = config.BOT_NAME || "Vortex S2";
 
     if (hasBadWord) {
       await malvin.sendMessage(from, { delete: m.key });

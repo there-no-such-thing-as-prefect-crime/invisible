@@ -6,7 +6,7 @@ const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
 const { spawn } = require('child_process');
 
 // Configuration
-const COVER_URL = 'https://files.catbox.moe/01f9y1.jpg';
+const COVER_URL = 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png';
 const TEMP_DIR = path.join(__dirname, '../temp');
 const MAX_RETRIES = 3;
 
@@ -74,13 +74,13 @@ malvin({
     // Input validation
     if (!match.quoted) {
         return await client.sendMessage(from, {
-            text: "*🎵 Please reply to an audio message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*🎵 Please reply to an audio message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 
     if (match.quoted.mtype !== 'audioMessage') {
         return await client.sendMessage(from, {
-            text: "*❌ Only audio messages can be converted to video*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*❌ Only audio messages can be converted to video*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 
@@ -92,19 +92,19 @@ malvin({
     try {
         // Send initial processing message
         const processingMsg = await client.sendMessage(from, {
-            text: "*🔄 Starting conversion process...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*🔄 Starting conversion process...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
 
         // Step 1: Download cover image
         await client.sendMessage(from, {
-            text: "*⬇️ Downloading cover image...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*",
+            text: "*⬇️ Downloading cover image...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*",
             edit: processingMsg.key
         });
         await downloadWithRetry(COVER_URL, coverPath);
 
         // Step 2: Save audio file
         await client.sendMessage(from, {
-            text: "*💾 Saving audio file...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*",
+            text: "*💾 Saving audio file...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*",
             edit: processingMsg.key
         });
         const audioBuffer = await match.quoted.download();
@@ -112,7 +112,7 @@ malvin({
 
         // Step 3: Convert to video
         await client.sendMessage(from, {
-            text: "*🎥 Converting to video...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*",
+            text: "*🎥 Converting to video...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*",
             edit: processingMsg.key
         });
 
@@ -145,13 +145,13 @@ malvin({
         await client.sendMessage(from, {
             video: videoBuffer,
             mimetype: 'video/mp4',
-            caption: "🎵 Your Audio Visualized\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            caption: "🎵 Your Audio Visualized\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
 
     } catch (error) {
         console.error('Conversion error:', error);
         await client.sendMessage(from, {
-            text: `*❌ Conversion failed*\nError: ${error.message}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+            text: `*❌ Conversion failed*\nError: ${error.message}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*`
         }, { quoted: message });
     } finally {
         // Cleanup files

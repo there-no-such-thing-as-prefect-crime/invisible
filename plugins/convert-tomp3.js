@@ -36,7 +36,7 @@ function formatDuration(seconds) {
 }
 
 // ==================== COVER IMAGE HANDLING ====================
-const COVER_URL = 'https://files.catbox.moe/18il7k.jpg';
+const COVER_URL = 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png';
 let coverImagePath = null;
 
 async function ensureCoverImage() {
@@ -63,18 +63,18 @@ malvin({
 }, async (client, match, message, { from }) => {
     if (!match.quoted) {
         return await client.sendMessage(from, {
-            text: "*🎵 Please reply to an audio message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*🎵 Please reply to an audio message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 
     if (match.quoted.mtype !== 'audioMessage') {
         return await client.sendMessage(from, {
-            text: "*❌ Only audio messages can be converted to video*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*❌ Only audio messages can be converted to video*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 
     const processingMsg = await client.sendMessage(from, {
-        text: "*🔄 Downloading cover image and preparing video...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+        text: "*🔄 Downloading cover image and preparing video...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
     }, { quoted: message });
 
     try {
@@ -86,7 +86,7 @@ malvin({
         await fs.promises.writeFile(audioPath, buffer);
 
         await client.sendMessage(from, {
-            text: "*🔄 Converting audio to video (this may take a while)...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*",
+            text: "*🔄 Converting audio to video (this may take a while)...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*",
             edit: processingMsg.key
         });
 
@@ -123,13 +123,13 @@ malvin({
         await client.sendMessage(from, {
             video: videoBuffer,
             mimetype: 'video/mp4',
-            caption: "🎵 Audio Visualized\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            caption: "🎵 Audio Visualized\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
 
     } catch (e) {
         console.error('Video conversion error:', e);
         await client.sendMessage(from, {
-            text: `*❌ Failed to convert to video*\n${e.message}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+            text: `*❌ Failed to convert to video*\n${e.message}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*`
         }, { quoted: message });
     }
 });
@@ -144,24 +144,24 @@ malvin({
 }, async (client, match, message, { from }) => {
     if (!match.quoted) {
         return await client.sendMessage(from, {
-            text: "*🔊 Please reply to a video/audio message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*🔊 Please reply to a video/audio message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 
     if (!['videoMessage', 'audioMessage'].includes(match.quoted.mtype)) {
         return await client.sendMessage(from, {
-            text: "*❌ Only video/audio messages can be converted*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*❌ Only video/audio messages can be converted*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 
     if (match.quoted.seconds > 300) {
         return await client.sendMessage(from, {
-            text: `*⏱️ Media too long (max 5 minutes)*\nDuration: ${formatDuration(match.quoted.seconds)}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+            text: `*⏱️ Media too long (max 5 minutes)*\nDuration: ${formatDuration(match.quoted.seconds)}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*`
         }, { quoted: message });
     }
 
     await client.sendMessage(from, {
-        text: "*🔄 Converting to audio...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+        text: "*🔄 Converting to audio...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
     }, { quoted: message });
 
     try {
@@ -178,7 +178,7 @@ malvin({
     } catch (e) {
         console.error('Conversion error:', e);
         await client.sendMessage(from, {
-            text: "*❌ Failed to process audio*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*❌ Failed to process audio*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 });
@@ -194,24 +194,24 @@ malvin({
 }, async (client, match, message, { from }) => {
     if (!match.quoted) {
         return await client.sendMessage(from, {
-            text: "*🗣️ Please reply to a video/audio message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*🗣️ Please reply to a video/audio message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 
     if (!['videoMessage', 'audioMessage'].includes(match.quoted.mtype)) {
         return await client.sendMessage(from, {
-            text: "*❌ Only video/audio messages can be converted*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*❌ Only video/audio messages can be converted*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 
     if (match.quoted.seconds > 60) {
         return await client.sendMessage(from, {
-            text: `*⏱️ Media too long for voice (max 1 minute)*\nDuration: ${formatDuration(match.quoted.seconds)}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`
+            text: `*⏱️ Media too long for voice (max 1 minute)*\nDuration: ${formatDuration(match.quoted.seconds)}\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*`
         }, { quoted: message });
     }
 
     await client.sendMessage(from, {
-        text: "*🔄 Converting to voice message...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+        text: "*🔄 Converting to voice message...*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
     }, { quoted: message });
 
     try {
@@ -229,7 +229,7 @@ malvin({
     } catch (e) {
         console.error('PTT conversion error:', e);
         await client.sendMessage(from, {
-            text: "*❌ Failed to create voice message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*"
+            text: "*❌ Failed to create voice message*\n\n> *ᴍᴀᴅᴇ ʙʏ ᴹˣᴳᴬᴹᴱᶜᴼᴰᴱᴿ*"
         }, { quoted: message });
     }
 });

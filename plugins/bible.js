@@ -1,9 +1,3 @@
-/*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https://github.com/XdKing2/MALVIN-XD
-*/   
-
 const axios = require("axios");
 const { malvin } = require("../malvin");
 
@@ -41,7 +35,7 @@ malvin({
                 `🔤 *𝑽𝒆𝒓𝒔𝒆:* ${verse}\n\n` +
                 `📖 *𝑻𝒆𝒙𝒕:* ${text}\n\n` +
                 `🗂️ *𝑻𝒓𝒂𝒏𝒔𝒍𝒂𝒕𝒊𝒐𝒏:* ${translation_name}\n\n` +
-                `> ᴍᴇʀᴄᴇᴅᴇs ʙɪʙʟᴇ`
+                `> 𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2 ʙɪʙʟᴇ`
             );
         } else {
             reply("❌ *Verse not found.* Please check the reference and try again.");

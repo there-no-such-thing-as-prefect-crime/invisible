@@ -21,7 +21,7 @@ const uptimeStyles = [
 │ 🕒 *ʀᴜɴɴɪɴɢ*: ${uptime}
 │ 📆 *sɪɴᴄᴇ*: ${startTime.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
 │ ⚡ *sᴛᴀᴛᴜs*: ᴀᴄᴛɪᴠᴇ
-└─⟤ ${config.DESCRIPTION || 'ᴍᴇʀᴄᴇᴅᴇs'}
+└─⟤ ${config.DESCRIPTION || 'ⱽᴼᴿᵀᴱˣ ˢ²'}
 `,
 ];
 
@@ -49,8 +49,8 @@ malvin({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-        newsletterJid: config.NEWSLETTER_JID || '120363299029326322@newsletter',
-          newsletterName: config.OWNER_NAME || 'ᴍᴇʀᴄᴇᴅᴇs',
+        newsletterJid: config.NEWSLETTER_JID || '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+          newsletterName: config.OWNER_NAME || 'ⱽᴼᴿᵀᴱˣ ˢ²',
           serverMessageId: 143,
         },
       },

@@ -48,7 +48,7 @@ malvin({
         }
 
         // Image AI à envoyer
-        const ALIVE_IMG = 'https://url.bwmxmd.online/Adams.zjrmnw18.jpeg'; // Remplacez par l'URL de votre image AI
+        const ALIVE_IMG = 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png'; // Remplacez par l'URL de votre image AI
 
         // Légende avec des informations formatées
         const formattedInfo = `Response:*\n\n${gptResponse}`;
@@ -62,8 +62,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363299029326322@newsletter',
-                    newsletterName: '*𝖒𝖆𝖗𝖎𝖘𝖊𝖑*',
+                    newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: '*𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛*',
                     serverMessageId: 143
                 }
             }
@@ -123,7 +123,7 @@ malvin({
         }
 
         // AI image to attach
-        const AI_IMG = 'https://url.bwmxmd.online/Adams.zjrmnw18.jpeg'; // Replace with a valid image URL
+        const AI_IMG = 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png'; // Replace with a valid image URL
 
         // Formatted response text
         const formattedInfo = `🤖 *Llama3 Response:*\n\n${llamaResponse}`;
@@ -137,8 +137,8 @@ malvin({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363299029326322@newsletter',
-                    newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+                    newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
+                    newsletterName: '𝚖𝚡𝚐𝚊𝚖𝚎𝚌𝚘𝚍𝚎𝚛',
                     serverMessageId: 143
                 }
             }

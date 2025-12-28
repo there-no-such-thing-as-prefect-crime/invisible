@@ -3,7 +3,7 @@ const axios = require('axios');
 
 malvin({
     pattern: "metaai",
-    alias: ["xeon", "meta"],
+    alias: ["meta"],
     react: "🤖",
     desc: "Talk with Meta AI",
     category: "ai",

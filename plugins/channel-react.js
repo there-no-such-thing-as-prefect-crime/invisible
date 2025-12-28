@@ -59,7 +59,7 @@ malvin({
 ╭───[ *ᴄʜᴀɴɴᴇʟ ʀᴇᴀᴄᴛ* ]───
 ├ *Channel*: ${channelName} 
 ├ *Reaction*: ${emojiText} 🔤
-╰───[ *X-GURU by GuruTech* ]───`;
+╰───[ *𝕧𝕠𝕣𝕥𝕖𝕩 𝕊2* ]───`;
 
         await malvin.sendMessage(from, {
             text: caption,
