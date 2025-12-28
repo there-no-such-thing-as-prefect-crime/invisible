@@ -317,7 +317,7 @@ try {
   const prefix = getPrefix();
   const username = "ᴍxɢᴀᴍᴇᴄᴏᴅᴇʀ";
   const mrmalvin = `https://github.com/${username}`;
-  const repoUrl = "https://github.com/msgamecoder/Vortex-S2";
+  const repoUrl = "https://github.com/msgamecoder/vortex-s2";
   const welcomeAudio = "https://files.catbox.moe/jlf4l2.mp3";
   
   // Get current date and time
@@ -339,21 +339,24 @@ try {
   
   const uptime = formatUptime(process.uptime());
 
-  const upMessage = `
-*┏──〔 Connected 〕───⊷*   
-*┇ Prefix: ${prefix}*
-*┇ Date: ${date}*
-*┇ Time: ${time}*
-*┇ Uptime: ${uptime}*
-*┇ Owner: ${ownername}*
-*┇ Follow Channel:*  
-*┇ https://shorturl.at/DYEi0*
-*┗──────────────⊷*
-> *Report any error to the dev*`;
+const upMessage = `
+*┏━━〔 🔥 VORTEX IS BACK 🔥 〕━━⊷*
+*┃ 😈 The demon has awakened again…*
+*┃*
+*┃ ⚙️ Prefix : ${prefix}*
+*┃ 📅 Date   : ${date}*
+*┃ ⏰ Time   : ${time}*
+*┃ ⏳ Uptime : ${uptime}*
+*┃ 👑 Owner  : ${ownername}*
+*┃*
+*┃ 📢 Follow Group*
+*┃ 🔗 https://chat.whatsapp.com/DXasbP5xOeT77AmzaPykEw*
+*┗━━━━━━━━━━━━━━━━━━⊷*
+> ⚠️ *Report any error to the dev immediately*`;
 
   try {
     await malvin.sendMessage(jid, {
-      image: { url: "https://files.catbox.moe/75baia.jpg" },
+      image: { url: "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png" },
       caption: upMessage,
     }, { quoted: null });
     console.log(chalk.green("[ 📩 ] Connection notice sent successfully with image"));

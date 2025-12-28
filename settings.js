@@ -25,7 +25,7 @@ module.exports = {
   CHATBOT: getConfig("CHATBOT") || "on",
   BOT_NAME: getConfig("BOT_NAME") || process.env.BOT_NAME || "Vortex-S2",
   MODE: getConfig("MODE") || process.env.MODE || "private",
-  REPO: process.env.REPO || "https://github.com/msgamecoder/Vortex-S2",
+  REPO: process.env.REPO || "https://github.com/msgamecoder/vortex-s2",
   PAIRING_CODE: process.env.PARING_CODE || 'true',
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
@@ -46,8 +46,8 @@ module.exports = {
   AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆 🤖*",
   READ_MESSAGE: getConfig("READ_MESSAGE") || process.env.READ_MESSAGE || "false",
   REJECT_MSG: process.env.REJECT_MSG || "*📵 Calls are not allowed on this number unless you have permission. 🚫*",
-  ALIVE_IMG: getConfig("ALIVE_IMG") || process.env.ALIVE_IMG || "https://files.catbox.moe/75baia.jpg",
-  LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\n> ɢɪᴛʜᴜʙ :* github.com/msgamecoder/Vortex-S2",
+  ALIVE_IMG: getConfig("ALIVE_IMG") || process.env.ALIVE_IMG || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+  LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\n> ɢɪᴛʜᴜʙ :* github.com/msgamecoder/vortex-s2",
 
   // ===== SECURITY & ANTI-FEATURES =====
   ANTI_DELETE: getConfig("ANTI_DELETE") || process.env.ANTI_DELETE || "true",
@@ -75,19 +75,19 @@ module.exports = {
 
   // ===== CATEGORY-SPECIFIC IMAGE URLs =====
   MENU_IMAGES: {
-    '1': process.env.DOWNLOAD_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",
-    '2': process.env.GROUP_MENU_IMAGE || "https://url.bwmxmd.online/Adams.xm472dqv.jpeg",
-    '3': process.env.FUN_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",
-    '4': process.env.OWNER_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",
-    '5': process.env.AI_MENU_IMAGE || "https://url.bwmxmd.online/Adams.zjrmnw18.jpeg",
-    '6': process.env.ANIME_MENU_IMAGE || "https://url.bwmxmd.online/Adams.h0gop5c7.jpeg",
-    '7': process.env.CONVERT_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",
-    '8': process.env.OTHER_MENU_IMAGE || "https://url.bwmxmd.online/Adams.zjrmnw18.jpeg",
-    '9': process.env.REACTION_MENU_IMAGE || "https://url.bwmxmd.online/Adams.xm472dqv.jpeg",
-    '10': process.env.MAIN_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",
-    '11': process.env.LOGO_MAKER_MENU_IMAGE || "https://url.bwmxmd.online/Adams.h0gop5c7.jpeg",
-    '12': process.env.SETTINGS_MENU_IMAGE || "https://url.bwmxmd.online/Adams.0dhfcjpi.jpeg",
-    '13': process.env.AUDIO_MENU_IMAGE || "https://url.bwmxmd.online/Adams.h0gop5c7.jpeg",
-    '14': process.env.PRIVACY_MENU_IMAGE || "https://url.bwmxmd.online/Adams.xm472dqv.jpeg"
+    '1': process.env.DOWNLOAD_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '2': process.env.GROUP_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '3': process.env.FUN_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '4': process.env.OWNER_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '5': process.env.AI_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '6': process.env.ANIME_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '7': process.env.CONVERT_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '8': process.env.OTHER_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '9': process.env.REACTION_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '10': process.env.MAIN_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '11': process.env.LOGO_MAKER_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '12': process.env.SETTINGS_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '13': process.env.AUDIO_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
+    '14': process.env.PRIVACY_MENU_IMAGE || "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png"
   }
 };

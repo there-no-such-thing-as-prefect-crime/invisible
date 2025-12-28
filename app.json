@@ -1,7 +1,7 @@
 {
   "name": "Vortex S2",
   "description": "WhatsApp bot made by mxgamecoder | Vortext",
-  "logo": "https://i.ibb.co/83NQTRL/xguru-1765723475694.jpg",
+  "logo": "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png",
   "keywords": ["mxgamecoder"],
   "success_url": "/",
   "stack": "container",
@@ -34,7 +34,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://i.ibb.co/83NQTRL/xguru-1765723475694.jpg"
+      "value": "https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png"
     },
     "DESCRIPTION": {
       "description": "add caption for menu and other",
