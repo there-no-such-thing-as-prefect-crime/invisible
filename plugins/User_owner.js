@@ -1,10 +1,3 @@
-/*
-🔧 Project      : X-GURU
-👑 Creator      : GuruTech
-📦 Repository   : https://github.com/ADDICT-HUB/X-GURU
-📞 Support      : https://wa.me/254735403829
-*/
-
 const { malvin } = require('../malvin');
 const config = require('../settings');
 
@@ -16,8 +9,8 @@ malvin({
   filename: __filename
 }, async (malvin, mek, m, { from, reply }) => {
   try {
-    const ownerName = config.OWNER_NAME || "GuruTech";
-    const ownerNumber = config.OWNER_NUMBER || "254735403829";
+    const ownerName = config.OWNER_NAME || "mxgamecoder";
+    const ownerNumber = config.OWNER_NUMBER || "2347041699492";
 
     // Build vCard contact
     const vcard = [
@@ -38,12 +31,12 @@ malvin({
 
     // Send image + caption with original style
     await malvin.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/75baia.jpg' },
+      image: { url: 'https://i.ibb.co/Q7Lv5JBk/zenitsu-agatsuma-3840x2160-24472.png' },
       caption: `
 ╭── ❍ X-GURU ❍
 │ ✦ 𝙽𝚊𝚖𝚎   : *${ownerName}*
 │ ✦ 𝙽𝚞𝚖𝚋𝚎𝚛 : *${ownerNumber}*
-│ ✦ 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : *${config.version || '2.0.0'}*
+│ ✦ 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : *${config.version || '1.0.0'}*
 ╰───────────────
 > Stay connected for 🔥 updates!`,
       contextInfo: {
@@ -51,7 +44,7 @@ malvin({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363299029326322@newsletter',
+          newsletterJid: '0029Vb7Ew0t8fewhGUdO1J0s@newsletter',
           newsletterName: ownerName,
           serverMessageId: 143
         }
